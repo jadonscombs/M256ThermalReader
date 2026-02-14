@@ -65,7 +65,7 @@ def is_raspberrypi():
 isPi = is_raspberrypi()
 
 # --- Auto-detect the correct camera device ---
-def find_tc001_device():
+def find_m256_device():
     try:
         result = subprocess.run(
             ["v4l2-ctl", "--list-devices"],
